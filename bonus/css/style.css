@@ -1,14 +1,15 @@
-.box{
-    width: 25%;
+.box {
+  width: 25%;
 }
 
-h1{
-    text-align: center;
-    margin-bottom: 50px;
+h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
-[class^=pixel]{
-  content: '';
+[class^="pixel"] {
+  content: "";
   position: relative;
 }
 
@@ -36,9 +37,25 @@ h1{
   padding-bottom: calc(100% / 6);
 }
 
+.pixel-7 {
+  padding-bottom: calc(100% / 7);
+}
+
+.pixel-8 {
+  padding-bottom: calc(100% / 8);
+}
+
 .pixel-9 {
-    padding-bottom: calc(100% / 9);
-  }
+  padding-bottom: calc(100% / 9);
+}
+
+.pixel-11 {
+  padding-bottom: calc(100% / 11);
+}
+
+.pixel-12 {
+  padding-bottom: calc(100% / 12);
+}
 
 .pixel::after {
   content: "";
@@ -49,7 +66,7 @@ h1{
   right: 0;
 }
 
-.bordered{
+.bordered {
   border-bottom: 4px solid green;
 }
 
@@ -57,26 +74,34 @@ h1{
   background-color: red;
 }
 
-.brown{
-    background-color: rgb(73, 46, 46);
+.brown {
+  background-color: rgb(73, 46, 46);
 }
 
-.skin{
-    background-color: #e2c598;
+.skin {
+  background-color: #e2c598;
 }
 
-.black{
-    background-color: black;
+.black {
+  background-color: black;
 }
 
-.blue{
-    background-color: steelblue;
+.blue {
+  background-color: steelblue;
 }
 
-.gold{
-    background-color: gold;
+.gold {
+  background-color: gold;
 }
 
-.green{
+.green {
   background-color: green;
+}
+
+.gray {
+  background-color: slategray;
+}
+
+.darkgray {
+  background-color: #333;
 }
