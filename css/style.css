@@ -1,0 +1,24 @@
+[class^="col-"] {
+  min-height: 50px;
+  background-color: cornflowerblue;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid white;
+}
+
+.parent{
+  padding:10px;
+}
+
+.nested{
+  background-color: green;
+  min-height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid cornflowerblue;
+}
+
+.push{
+  margin-bottom: 10px;
+}
