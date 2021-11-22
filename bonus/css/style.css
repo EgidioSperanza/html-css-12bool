@@ -1,0 +1,76 @@
+.box{
+    width: 25%;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pixel-1 {
+  padding-bottom: 100%;
+  position: relative;
+}
+
+.pixel-2 {
+  padding-bottom: calc(100% / 2);
+  position: relative;
+}
+
+.pixel-3 {
+  padding-bottom: calc(100% / 3);
+  position: relative;
+}
+
+.pixel-4 {
+  padding-bottom: calc(100% / 4);
+  position: relative;
+}
+
+.pixel-5 {
+  padding-bottom: calc(100% / 5);
+  position: relative;
+}
+
+.pixel-6 {
+  padding-bottom: calc(100% / 6);
+  position: relative;
+}
+
+.pixel-9 {
+    padding-bottom: calc(100% / 9);
+    position: relative;
+  }
+
+.pixel::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.red {
+  background-color: red;
+}
+
+.brown{
+    background-color: rgb(73, 46, 46);
+}
+
+.skin{
+    background-color: #e2c598;
+}
+
+.black{
+    background-color: black;
+}
+
+.blue{
+    background-color: steelblue;
+}
+
+.gold{
+    background-color: gold;
+}
